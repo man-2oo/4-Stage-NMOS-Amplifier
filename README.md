@@ -1,6 +1,6 @@
 # 4 Stage NMOS Amplifier Design
 
-A low-power, multi-stage MOSFET amplifier designed and simulated in KiCad to meet specified gain, bandwidth, output swing, loading, and power constraints using a 3.3 V single supply.
+A low-power, multi-stage MOSFET amplifier designed and simulated in KiCad to meet specified gain, bandwidth, output swing, loading, and power constraints using a 3.3 V single supply. This project was the final project of the ELE404 course.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ The design was developed through hand calculations followed by iterative KiCad s
 7. Add and optimize the output buffer for load sensitivity and output swing.
 8. Iterate initial component values based on simulation results.
 
-Some hand calculations are present at the root of the repository. The changes made due to initial calculations include:
+Some hand calculations are provided in the repository. The changes made due to initial calculations include:
 - 2 stage design to 3 stage design due to unmet gain and power constraints.
 - Re-selection of bias voltages/over drive voltages due to higher power draw.
 - Higher capacitance values caused bandwidth issues.
@@ -44,4 +44,16 @@ From the initial simulation results and steps in between, the following changes 
 - Buffer Sizing: The buffer NMOS W/L ratio was increased from 25 to 200.
 
 Some results of the simulations are shown below:
+
+### Bias Network DC Operating Point Test Results
+![DC Bias](simulations/DC-bias.png)
+
+### Buffer Network DC Operating Point Test Results
+![DC Buffer](simulations/DC-buffer.png)
+
+### Frequency Response Test Results
+![Frequency Response](simulations/frequency-response.png)
+
+### Transient Response Test Results (With a High Amplitude and Frequency Signal)
+![Transient Response](simulations/transient-response.png)
 
