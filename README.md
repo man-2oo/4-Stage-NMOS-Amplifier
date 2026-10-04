@@ -1,6 +1,6 @@
 # 4 Stage NMOS Amplifier Design
 
-A low-power, multi-stage MOSFET amplifier designed and simulated in KiCad to meet specified gain, bandwidth, output swing, loading, and power constraints using a 3.3 V single supply. This project was the final project of the ELE404 course.
+A low-power, multi-stage MOSFET amplifier designed and simulated in KiCad to meet specified gain, bandwidth, output swing, loading, and power constraints using a 3.3 V single supply. This project was the final project Electronic Circuits I.
 
 ## Requirements
 
